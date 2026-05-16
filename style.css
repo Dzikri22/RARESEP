@@ -1,43 +1,103 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f7f7f7;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  line-height: 1.7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 20px 0;
 }
 
+/* Container */
 .container {
-  max-width: 900px;
-  margin: 40px auto;
-  background: white;
-  padding: 40px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-  color: #1f2937;
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 10px;
+header h1 {
+    color: #e67e22; /* Warna khas kuliner/hangat */
+    font-size: 2.2rem;
+    margin-bottom: 5px;
 }
 
-.updated {
-  text-align: center;
-  color: #666;
-  margin-bottom: 30px;
+.app-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    border-left: 4px solid #e67e22;
+    padding-left: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
 }
 
 ul {
-  padding-left: 20px;
+    margin-bottom: 15px;
+    padding-left: 20px;
 }
 
+li {
+    margin-bottom: 8px;
+}
+
+/* Highlight */
+.contact-email {
+    background-color: #fff3e0;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #e67e22;
+}
+
+/* Footer */
 footer {
-  margin-top: 40px;
-  text-align: center;
-  font-size: 14px;
-  color: #777;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
 }
