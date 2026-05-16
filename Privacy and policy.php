@@ -1,0 +1,124 @@
+<?php
+// Raresep Privacy Policy Page
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raresep Privacy Policy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    h1, h2 {
+      color: #1f2937;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .updated {
+      text-align: center;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="updated"><strong>Raresep Mobile Application</strong><br>Last Updated: May 16, 2026</p>
+
+    <p>
+      Raresep (“we,” “our,” or “us”) is committed to protecting user privacy and ensuring transparency regarding the collection, use, and disclosure of personal information in compliance with Google Play Developer Policy requirements.
+    </p>
+
+    <h2>1. Information We Collect</h2>
+    <ul>
+      <li>Personal information such as name, email address, and phone number (if provided).</li>
+      <li>User-generated content including recipes, comments, ratings, and uploaded images.</li>
+      <li>Technical data such as device information, operating system, IP address, app version, and crash logs.</li>
+      <li>Usage analytics to improve application performance and user experience.</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <ul>
+      <li>To create and manage user accounts.</li>
+      <li>To provide recipe recommendations and personalized content.</li>
+      <li>To improve app functionality, security, and performance.</li>
+      <li>To communicate updates, support responses, and important notifications.</li>
+    </ul>
+
+    <h2>3. Data Sharing and Disclosure</h2>
+    <p>
+      Raresep does not sell or rent personal information to third parties. Data may only be shared with trusted service providers for hosting, analytics, authentication, or legal compliance purposes.
+    </p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>This application may integrate with third-party services including:</p>
+    <ul>
+      <li>Google Firebase Authentication</li>
+      <li>Google Firebase Analytics</li>
+      <li>Cloud Storage Services</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>
+      We apply industry-standard technical and organizational measures to safeguard personal data against unauthorized access, loss, misuse, or disclosure.
+    </p>
+
+    <h2>6. User Rights</h2>
+    <ul>
+      <li>Access and update personal information</li>
+      <li>Request account deletion</li>
+      <li>Request deletion of stored personal data</li>
+    </ul>
+
+    <p>Deletion requests may be submitted via email: <strong>support@raresep.com</strong></p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>
+      Raresep is not directed toward children under the age of 13. We do not knowingly collect personal data from children.
+    </p>
+
+    <h2>8. Policy Updates</h2>
+    <p>
+      This Privacy Policy may be updated periodically. Any changes will be published on this page with a revised effective date.
+    </p>
+
+    <h2>9. Contact Information</h2>
+    <p>
+      Raresep Support<br>
+      Email: support@raresep.com<br>
+      Website: www.raresep.com
+    </p>
+
+    <footer>
+      © 2026 Raresep. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
